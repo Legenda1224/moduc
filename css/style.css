@@ -594,6 +594,8 @@ input::placeholder{
 }
 
 button{
+    cursor: pointer;
+    transition: 0.3s;
     font-size: 17px;
     font-weight: 600;
     background-color: #1f5bff;
@@ -601,6 +603,12 @@ button{
     border: 0;
     padding: 20px 40px;
     border-radius: 100px;
+}
+
+button:hover{
+    background-color: #ffda08;
+    color: black;
+    box-shadow: 0px 5px 0px 0px black;
 }
 
 
